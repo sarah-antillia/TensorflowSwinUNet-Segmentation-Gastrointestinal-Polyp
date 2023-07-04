@@ -196,8 +196,8 @@ in the following way:<br>
  We can create and train your TensorflowSwinUNet model by Gastrointestinal-Polyp dataset defined in the <b>train_eval_infer.config</b> file.<br>
 <p>
 
-We can use <a href="./ImageMaskDataset.py">ImageMaskDataset</a> class to create <b>train</b> and <b>test</b> dataset from the 
-the original downloaded file.<br>
+We can use <a href="./ImageMaskDataset.py">ImageMaskDataset</a> class to create <b>train</b> and <b>test</b> dataset in 
+<b>./projects/GastrointestinalPolyp/GastrointestinalPolyp.</b><br>
 Please move to <b>./projects/Gastrointestinal-Polyp/</b>, and run the following bat file.
 <pre>
 >1.train.bat
