@@ -92,10 +92,10 @@ GastrointestinalPolyp
 </h2>
  You can customize your <a href="./TensorflowSwinUNet.py">TensorflowSwinUNet</a> model by using a configration file.<br>
  The following is the case of Gastrointestinal-Polyp segmentation dataset.<br>
-Please note that loss and metrics functions based on IoU (Intersection over Union) in model section.<br>
+Please note that loss and metrics in model section, which is of course a first experiment.<br>
 <pre>
-loss    = "iou_loss"
-metrics = ["iou_coef"]
+loss    = "binary_crossentropy"
+metrics = ["binary_accuracy"]
 </pre>
  
 <pre>
