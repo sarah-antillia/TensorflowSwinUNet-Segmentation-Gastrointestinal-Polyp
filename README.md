@@ -1,4 +1,4 @@
-# TensorflowSwinUNet-Segmentation-Gastrointestinal-Polyp (Updated: 2023/07/04)
+# TensorflowSwinUNet-Segmentation-Gastrointestinal-Polyp (Updated: 2023/07/06)
 
 <h2>
 1 TensorflowSwinUNet-Segmentation-Gastrointestinal-Polyp
@@ -338,5 +338,16 @@ different applications that use image segmentation can use SemSegLoss because of
 functions. This wide range of applications will lead to the development and growth of AI across all industries.
 }
 }
-
+</pre>
 <br>
+
+<h2>Appendix </h2>
+
+To inspect TensorflowSwinNet Model structure, please move to <b>./projects/GastrointestinalPolyp</b>,
+ and run the followin bat file.<br>
+<pre>
+>model_inspect.bat
+</pre>
+<img src= "./projects/GastrointestinalPolyp/model.png" width="1024" height="auto"><br>
+
+
